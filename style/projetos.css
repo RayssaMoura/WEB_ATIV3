@@ -42,7 +42,6 @@ body{
 }
 
 .container{
-    border: 2px solid red;
     margin-top: 2%;
     height: 700vh;
 }

@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');/*font-family: 'Red Hat Display', sans-serif;*/
+@import url('https://fonts.cdnfonts.com/css/le-jour'); /*font-family: 'Le Jour', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap'); /*font-family: 'Clicker Script', cursive;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F4EFEB;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+    background: transparent;
+}
+
+.lista{
+    margin-left: 70vh;
+    display: flex;
+}
+
+.lista li{
+    list-style: none;
+}
+
+.lista li a{
+    font-family: 'Red Hat Display', sans-serif;
+    color: #864823;
+    text-decoration: none;
+    margin-left: 10vh;
+    transition: 0.5s;
+}
+
+.lista a:hover{
+    opacity: 1.5;
+    color: #000000;
+}
+
+.container{
+    margin-top: 2%;
+    height: 1280vh;
+}
+
+.container h1{
+    text-align: center;
+    color: #864823;
+    margin-left: 5%;
+    letter-spacing: 10px;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container h3{
+    margin-top: 6%;
+    margin-left: 5%;
+    color: #864823;
+    letter-spacing: 8px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Clicker Script', cursive;
+}
+
+.container-1{
+    display: flex;
+    height: 75vh;
+}
+
+
+.img-1{
+    background: url('../Img/projeto-1.png') no-repeat;
+    background-size: 460px;
+    background-position: left;
+    width: 40%;
+    align-items: center;
+}
+
+.txt-1{
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 60%;
+    align-items: center;
+    text-align: justify;
+}
+
+.txt-1 p{
+    margin-left: 5%;
+    margin-right: 10%;
+    color: #864823;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 4%;
+}
+
+.container-2{
+    display: flex;
+    height: 80vh;
+}
+
+
+.img-2{
+    background: url('../Img/projeto-2.png') no-repeat;
+    background-size: 430px;
+    background-position: right;
+    width: 40%;
+    align-items: center;
+}
+
+.txt-2{
+    margin-left: 3%;
+    width: 60%;
+    align-items: center;
+    text-align: justify;
+}
+
+.txt-2 p{
+    margin-left: 5%;
+    margin-right: 10%;
+    color: #864823;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 4%;
+}
+
+.container-3{
+    margin-top: 4%;
+    height: 40vh;
+}
+
+.txt-3{
+    align-items: center;
+    text-align: justify;
+}
+
+.txt-3 p{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #864823;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 2%;
+}
+
+.container-4{
+    display: flex;
+    height: 80vh;
+}
+
+
+.img-4{
+    background: url('../Img/projeto-3.png') no-repeat;
+    background-size: 450px;
+    background-position: left;
+    width: 40%;
+    align-items: center;
+}
+
+.txt-4{
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 60%;
+    align-items: center;
+    text-align: justify;
+}
+
+.txt-4 p{
+    margin-left: 5%;
+    margin-right: 10%;
+    color: #864823;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 4%;
+}
+
+.container-5{
+    margin-bottom: 5%;
+    margin-top: 6%;
+    display: flex;
+    height: 75vh;
+}
+
+
+.img-5{
+    background: url('../Img/projeto-5.png') no-repeat;
+    background-size: 400px;
+    background-position: right;
+    width: 40%;
+    align-items: center;
+}
+
+.txt-5{
+    margin-left: 5%;
+    width: 60%;
+    align-items: center;
+    text-align: justify;
+}
+
+.txt-5 p{
+    margin-left: 5%;
+    margin-right: 10%;
+    color: #864823;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 4%;
+}
+
+.container-6{
+    display: flex;
+    height: 75vh;
+}
+
+
+.img-6{
+    background: url('../Img/primeira-impressao.png') no-repeat;
+    background-size: 440px;
+    background-position: left;
+    width: 40%;
+    align-items: center;
+}
+
+.txt-6{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 60%;
+    align-items: center;
+    text-align: justify;
+}
+
+.txt-6 p{
+    margin-left: 5%;
+    margin-right: 10%;
+    color: #864823;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container-7{
+    display: flex;
+    height: 75vh;
+}
+
+
+.img-7{
+    background: url('../Img/primeira-impressao-2.png') no-repeat;
+    background-size: 440px;
+    background-position: right;
+    width: 40%;
+    align-items: center;
+}
+
+.txt-7{
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 60%;
+    align-items: center;
+    text-align: justify;
+}
+
+.txt-7 p{
+    margin-left: 5%;
+    margin-right: 10%;
+    color: #864823;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 4%;
+}
+
+.container-8{
+    display: flex;
+    height: 75vh;
+}
+
+.txt-8{
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 60%;
+    align-items: center;
+    text-align: justify;
+}
+
+.txt-8 p{
+    margin-left: 5%;
+    margin-right: 10%;
+    color: #864823;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 4%;
+}
+
+.img-8{
+    background: url('../Img/menina-if.png') no-repeat;
+    background-size: 380px;
+    background-position: left;
+    width: 40%;
+    align-items: center;
+}
+
+.container-9{
+    display: flex;
+    height: 75vh;
+    margin-bottom: 2%;
+}
+
+
+.img-9{
+    background: url('../Img/menino-if.png') no-repeat;
+    background-size: 380px;
+    background-position: right;
+    width: 40%;
+    align-items: center;
+}
+
+.txt-9{
+    margin-top: 6%;
+    margin-left: 5%;
+    width: 60%;
+    align-items: center;
+    text-align: justify;
+}
+
+.txt-9 p{
+    margin-left: 5%;
+    margin-right: 10%;
+    color: #864823;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 4%;
+}
+
+.container-10{
+    margin-top: 4%;
+    height: 65vh;
+}
+
+.txt-10{
+    align-items: center;
+    text-align: justify;
+}
+
+.txt-10 p{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #864823;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 2%;
+}
+
+.container-11{
+    margin-top: 4%;
+    height: 60vh;
+}
+
+.txt-11{
+    align-items: center;
+    text-align: justify;
+}
+
+.txt-11 p{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #864823;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 2%;
+}
+
+.container-12{
+    margin-top: 4%;
+    height: 60vh;
+}
+
+.txt-12{
+    align-items: center;
+    text-align: justify;
+}
+
+.txt-12 p{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #864823;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 2%;
+}
+
+.container-13{
+    margin-top: 4%;
+    height: 60vh;
+}
+
+.txt-13{
+    align-items: center;
+    text-align: justify;
+}
+
+.txt-13 p{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #864823;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 2%;
+}

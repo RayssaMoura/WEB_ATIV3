@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');/*font-family: 'Red Hat Display', sans-serif;*/
+@import url('https://fonts.cdnfonts.com/css/le-jour'); /*font-family: 'Le Jour', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap'); /*font-family: 'Clicker Script', cursive;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F4EFEB;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+    background: transparent;
+}
+
+.lista{
+    margin-left: 70vh;
+    display: flex;
+}
+
+.lista li{
+    list-style: none;
+}
+
+.lista li a{
+    font-family: 'Red Hat Display', sans-serif;
+    color: #864823;
+    text-decoration: none;
+    margin-left: 10vh;
+    transition: 0.5s;
+}
+
+.lista a:hover{
+    opacity: 1.5;
+    color: black;
+}
+
+.container-txt{
+    height: 390vh;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.txt-div{
+    align-items: center;
+    text-align: justify;
+}
+
+.txt-div h1{
+    text-align: center;
+    color: #864823;
+    margin-left: 5%;
+    letter-spacing: 10px;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.txt-div h3{
+    margin-top: 6%;
+    margin-left: 8%;
+    color: #864823;
+    letter-spacing: 8px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Clicker Script', cursive;
+}
+
+.container-1{
+    display: flex;
+    height: 45vh;
+}
+
+.img-1{
+    background: url('../Img/ensino-medio.png') no-repeat;
+    background-size: 335px;
+    background-position: left;
+    width: 35%;
+    background-position: left;
+    
+}
+
+.txt-1{
+    margin-left: 5%;
+    width: 70%;
+    align-items: center;
+    text-align: justify;
+}
+
+.txt-1 p{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 10%;
+    color: #864823;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container-2{
+    margin-top: 4%;
+}
+
+.img-2{
+    height: 70vh;
+    background: url('../Img/formacoes.png') no-repeat;
+    background-size: 850px;
+    background-position: center;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.txt-2{
+    height: 180vh;
+    align-items: center;
+    text-align: justify;
+}
+
+.txt-2 p{
+    margin-left: 8%;
+    margin-right: 10%;
+    color: #864823;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.txt-2 h3{
+    margin-left: 8%;
+    color: #864823;
+    letter-spacing: 8px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Clicker Script', cursive;
+}
